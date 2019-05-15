@@ -36,7 +36,13 @@ limitations under the License.
    --scrollbar-border: var(--primary);
 }
 
+.p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before{
+    background: var(--background);
+}
 
+.c-react_search_input:active .icon_search_wrapper *, .c-react_search_input:active .search_input_wrapper *, .c-react_search_input:focus .icon_search_wrapper *, .c-react_search_input:focus .search_input_wrapper *, .c-react_search_input:hover .icon_search_wrapper *, .c-react_search_input:hover .search_input_wrapper *{
+    color: var(--border-dim)!important; 
+}
 .p-message_pane__limited_history_foreword, .p-channel_sidebar, .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
    background: var(--background);
    color: var(--text-bright);
