@@ -36,6 +36,34 @@ limitations under the License.
    --scrollbar-border: var(--primary);
 }
 
+
+.p-message_pane__limited_history_foreword, .p-channel_sidebar, .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
+   background: var(--background);
+   color: var(--text-bright);
+}
+.c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight){
+    background: var(--background-hover);
+}
+
+.c-message__content, .c-message_list__day_divider__label__pill, .c-message__body{
+   color: var(--text-bright) !important;
+}
+
+.c-message_list__day_divider__line{
+    border-color: var(--border-dim);
+}
+.c-message_list__day_divider__label__pill{
+    background: var(--border-dim);
+}
+.c-message_attachment,.c-message--light .c-message__sender .c-message__sender_link{
+    color: var(--text);
+}
+.p-message_pane a{
+    color: var(--primary);
+}
+
+
+
 h1, h2, h3, h4 {
   color: var(--text);
 }
@@ -981,31 +1009,3 @@ ts-jumper, ts-jumper.active {
 ts-jumper ts-jumper-container {
   box-shadow: 0 5px 20px rgba(0,0,0,1);
 }
-
-
-
-.p-message_pane__limited_history_foreword, .p-channel_sidebar, .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar) {
-   background: var(--background);
-   color: var(--text-bright);
-}
-.c-message--focus:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message--hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight), .c-message:hover:not(.c-message--highlight):not(.c-message--standalone):not(.c-message--pinned):not(.c-message--ephemeral):not(.c-message--custom_response):not(.c-message--starred):not(.c-message--sli_highlight){
-    background: var(--background-hover);
-}
-
-.c-message__content, .c-message_list__day_divider__label__pill, .c-message__body{
-   color: var(--text-bright) !important;
-}
-
-.c-message_list__day_divider__line{
-    border-color: var(--border-dim);
-}
-.c-message_list__day_divider__label__pill{
-    background: var(--border-dim);
-}
-.c-message_attachment,.c-message--light .c-message__sender .c-message__sender_link{
-    color: var(--text);
-}
-.p-message_pane a{
-    color: var(--primary);
-}
-
