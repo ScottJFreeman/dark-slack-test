@@ -33,7 +33,7 @@ limitations under the License.
    --text-special: var(--primary);
 
    --scrollbar-background: #000;
-   --scrollbar-border: var(--primary);
+   --scrollbar-border: #555;
 }
 
 .p-message_pane .c-message_list.c-virtual_list--scrollbar>.c-scrollbar__hider:before, .p-message_pane .c-message_list:not(.c-virtual_list--scrollbar):before{
